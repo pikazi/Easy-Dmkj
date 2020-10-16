@@ -34,13 +34,38 @@
 
 ![65243431.jpg][6]
 
-**补充**
+**需要自己添加的信息**
 
-需要自己添加高德LBS的Key，否则无法使用导航。
+高德`LBS`的`Key`，否则无法使用导航。
 
-由于登录界面有服务器信息，出于隐私保护没有上传Activity的代码，需要自己写一个。
+登录界面`Activity`，需要自己写一个，使用`Intent`传帐号密码给`MainActivity`。
 
-AES和Des里的Key和加密Iv自己添加。
+`AES`和`Des`里的`Key`和加密`Iv`自己添加。
+
+##开源和协议信息
+
+**本项目遵循MIT协议**
+
+ - appIntro
+ - cardview
+ - recyclerview
+ - glide
+ - swiperefreshlayout
+ - gson
+ - fastjson
+ - okHttp
+ - navigation-fragment
+ - navigation-ui
+ - material
+ - circleimageview
+ - AMap3DMap_AMapNavi
+ - bcprov
+ - [Sheledons/daomengKJ][7]
+ 
+ 感谢`Sheledons`的`daomengKJ`项目，感谢其贡献者`vintingb`提交的代码为本项目的开发提供主要思路。
+ 
+
+
 
 
   [1]: http://blog.jiyehoo.com:81/usr/uploads/2020/09/1784097491.jpg
@@ -49,3 +74,4 @@ AES和Des里的Key和加密Iv自己添加。
   [4]: http://blog.jiyehoo.com:81/usr/uploads/2020/09/2100319872.jpg
   [5]: http://blog.jiyehoo.com:81/usr/uploads/2020/09/4263075057.jpg
   [6]: http://blog.jiyehoo.com:81/usr/uploads/2020/09/2805451109.jpg
+  [7]: https://github.com/Sheledons/daomengKJ
